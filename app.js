@@ -45,7 +45,8 @@ function numberColor() {
 
 //resets counter to zero
 function resetFunction(e) {
-  inputNumber.value = 0;
+  counter = 0
+  inputNumber.value = counter;
   numberColor();
   e.preventDefault();
 }
